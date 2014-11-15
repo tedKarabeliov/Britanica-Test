@@ -1,0 +1,37 @@
+body {
+	background-color: #F2F2F2
+}
+
+	body > div#wrapper {
+		width: 960px;
+		margin: auto;
+		text-align: center;
+		font-family:"Calibri (Body)";
+	}
+	
+		body > div#wrapper > h1 {
+			color: #6E6E6E
+		}
+	
+		body > div#wrapper > table {
+			margin: auto;
+			border-collapse: collapse;
+		}
+		
+			body > div#wrapper > table tr {
+				background-color: #6BE9FA
+			}
+			
+			body > div#wrapper > table tbody tr:nth-child(2n) {
+				background-color: #B0EFF7
+			}
+			
+			body > div#wrapper > table th {
+				background-color: #D1D1D1;
+				padding: 5px;
+			}
+			
+			body > div#wrapper table td {
+				padding: 0 10px;
+			}
+
